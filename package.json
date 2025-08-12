@@ -12,9 +12,9 @@
     "node": ">=18.20.8"
   },
   "dependencies": {
-    "@astrojs/node": "^9.3.0",
+    "@astrojs/node": "^9.4.0",
     "@tailwindcss/vite": "^4.1.10",
-    "astro": "^5.11.0",
+    "astro": "^5.12.9",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
