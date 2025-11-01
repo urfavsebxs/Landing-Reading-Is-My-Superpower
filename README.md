@@ -1,48 +1,92 @@
-# Astro Starter Kit: Basics
+<!--
+  README para Landing-Reading-Is-My-Superpower
+  Generado automáticamente — editalo para ajustar textos y enlaces.
+-->
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+# 📚 Reading Is My Superpower - Landing
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+![GitHub stars](https://img.shields.io/github/stars/urfavsebxs/Landing-Reading-Is-My-Superpower?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/urfavsebxs/Landing-Reading-Is-My-Superpower?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/urfavsebxs/Landing-Reading-Is-My-Superpower?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/urfavsebxs/Landing-Reading-Is-My-Superpower?style=flat-square)
+![Astro](https://img.shields.io/badge/Astro-5.12.9-0cf?style=flat-square&logo=astro)
+![Node](https://img.shields.io/badge/Node-%3E=%2018.20.8-brightgreen?style=flat-square&logo=node.js)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=github)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Una landing hecha con Astro para el proyecto "Reading Is My Superpower" — un sitio ligero para mostrar cómics y contenido relacionado con la lectura.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## ✨ ¿Qué hay aquí?
 
-## 🚀 Project Structure
+- Página principal con comics y recursos.
+- Dashboard y sistema de voto (backend mínimo usando Express + MongoDB).
+- Login simple para gestionar votos y usuarios.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🧰 Tecnologías
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Astro
+- TailwindCSS
+- Node.js (>= 18.20.8)
+- Express
+- MongoDB
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+> La versión de Astro y el `node` requerido se toman de `package.json`.
 
-## 🧞 Commands
+## 🚀 Ejecutar en desarrollo
 
-All commands are run from the root of the project, from a terminal:
+1. Clona el repositorio:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+	git clone https://github.com/urfavsebxs/Landing-Reading-Is-My-Superpower.git
+	cd Landing-Reading-Is-My-Superpower
 
-## 👀 Want to learn more?
+2. Instala dependencias (usa pnpm, npm o yarn según prefieras):
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+	pnpm install
+
+3. Ejecuta en modo desarrollo:
+
+	pnpm run dev
+
+Abre http://localhost:3000 (o el puerto que muestre Astro).
+
+## 🧪 Construir y producción
+
+Para compilar:
+
+	pnpm run build
+
+Iniciar la versión compilada:
+
+	pnpm run start
+
+## 📁 Estructura principal
+
+- `src/pages/` - Páginas de Astro (index, comic, dashboard, login).
+- `src/lib/` - Lógica compartida y conexión a BD (`db.js`).
+- `src/model/` - Colecciones y modelos para usuarios, votos y códigos.
+- `public/` - Assets públicos (comics, PDF, fonts, videos).
+
+## 🤝 Contribuir
+
+¿Quieres ayudar? Genial. Abre un issue o envía un pull request. Algunas ideas:
+
+- Mejorar la accesibilidad del sitio.
+- Agregar tests o CI.
+- Añadir más contenidos/comics y optimizar imágenes.
+
+Checklist mínima para PRs:
+
+- Código linted y que compila.
+- Cambios documentados en `README.md` cuando aplique.
+
+## 📜 Licencia
+
+Este repositorio no declara una licencia en `package.json`. Si quieres publicar o compartir públicamente este proyecto, considera añadir una licencia (por ejemplo MIT) y actualizar `package.json`.
+
+## ✉️ Contacto
+
+Si necesitas contactarme o reportar un bug abre un issue en GitHub.
+
+---
+
+Gracias por visitar este proyecto. ¡A leer! 📖✨
+
